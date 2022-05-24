@@ -1,4 +1,5 @@
-﻿using tabuleiro;
+﻿using System;
+using tabuleiro;
 
 namespace xadrez
 {
@@ -7,7 +8,6 @@ namespace xadrez
         public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
-
         public override string ToString()
         {
             return "R";

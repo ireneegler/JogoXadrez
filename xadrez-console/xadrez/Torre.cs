@@ -1,4 +1,5 @@
 ﻿using tabuleiro;
+using System;
 
 namespace xadrez
 {
@@ -7,7 +8,6 @@ namespace xadrez
         public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
-
         public override string ToString()
         {
             return "T";
