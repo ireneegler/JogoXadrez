@@ -19,7 +19,13 @@ namespace tabuleiro
             this.tab = tab;
         }
 
-        public void incrementarQteMovimento()
+        public Peca(Tabuleiro tab, Cor cor)
+        {
+            this.tab = tab;
+            this.cor = cor;
+        }
+
+        public void incrementarQteMovimentos()
         {
             qteMovimentos++;
         }
