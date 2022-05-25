@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tabuleiro
 {
-     class Peca
+    class Peca
     {
         public Posicao posicao { get; set; }
         public Cor cor { get; protected set; }
@@ -19,10 +19,9 @@ namespace tabuleiro
             this.tab = tab;
         }
 
-        public Peca(Tabuleiro tab, Cor cor)
+        public void incrementarQteMovimento()
         {
-            this.tab = tab;
-            this.cor = cor;
+            qteMovimentos++;
         }
     }
 }
